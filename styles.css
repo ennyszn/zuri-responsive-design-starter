@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
-
+@media only screen and (max-width: 500px) {
+    /*shows elements in a column*/
+    ul{
+      flex-direction: column;
+    }
+  }
 * {
     margin: 0;
     padding: 0;
@@ -41,7 +46,7 @@ ul li a {
 ul li a:hover {
     color: #304353;
     background: #fff;
-    padding: 0.5rem;
+    padding: 0.2rem;
 }
 
 div.hero-section {
